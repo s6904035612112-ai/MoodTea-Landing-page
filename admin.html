@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รายการสั่งซื้อ (Admin) — MoodTea</title>
+  <meta name="description" content="หน้าแอดมินสำหรับดูรายการสั่งซื้อชาสมุนไพร MoodTea">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="navbar__logo">Mood<span>Tea</span></a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="เปิดเมนู">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="eyebrow">MoodTea Admin</span>
+          <h2>รายการสั่งซื้อ</h2>
+          <span class="heading-accent"></span>
+          <p class="lead mt-sm">รายการล่าสุดจะแสดงอยู่ด้านบนสุด</p>
+        </div>
+
+        <div class="table-wrap">
+          <table id="ordersTable" class="data-table">
+            <thead>
+              <tr>
+                <th>วันเวลา</th>
+                <th>ชื่อลูกค้า</th>
+                <th>เบอร์โทร / Line</th>
+                <th>รายการสินค้า</th>
+                <th>จำนวนเงินรวม</th>
+                <th>หมายเหตุ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- script.js จะเติมแถวข้อมูลตรงนี้ -->
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__bottom">
+        &copy; 2026 MoodTea. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // toggle mobile nav
+    var navToggle = document.getElementById('navToggle');
+    var navLinks = document.getElementById('navLinks');
+    if (navToggle && navLinks) {
+      navToggle.addEventListener('click', function () {
+        navLinks.classList.toggle('is-open');
+      });
+    }
+  </script>
+</body>
+</html>

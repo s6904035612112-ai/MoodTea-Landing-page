@@ -1,0 +1,102 @@
+[
+  {
+    "id": "fresh-small",
+    "name": "ชาสมุนไพร Fresh",
+    "mood": "fresh",
+    "type": "tea",
+    "size": "เล็ก 10 ซอง",
+    "price": 129,
+    "image": "images/fresh.jpg",
+    "description": "ชาสมุนไพรกลิ่นสดชื่น ช่วยให้รู้สึกปลอดโปร่ง กระปรี้กระเปร่าตั้งแต่จิบแรก"
+  },
+  {
+    "id": "fresh-large",
+    "name": "ชาสมุนไพร Fresh",
+    "mood": "fresh",
+    "type": "tea",
+    "size": "ใหญ่ 30 ซอง",
+    "price": 299,
+    "image": "images/fresh.jpg",
+    "description": "ชาสมุนไพรกลิ่นสดชื่น ช่วยให้รู้สึกปลอดโปร่ง กระปรี้กระเปร่าตั้งแต่จิบแรก"
+  },
+  {
+    "id": "focus-small",
+    "name": "ชาสมุนไพร Focus",
+    "mood": "focus",
+    "type": "tea",
+    "size": "เล็ก 10 ซอง",
+    "price": 129,
+    "image": "images/focus.jpg",
+    "description": "ชาสมุนไพรสูตรเพิ่มสมาธิ ช่วยให้จดจ่อกับงานตรงหน้าได้อย่างมีคุณภาพ"
+  },
+  {
+    "id": "focus-large",
+    "name": "ชาสมุนไพร Focus",
+    "mood": "focus",
+    "type": "tea",
+    "size": "ใหญ่ 30 ซอง",
+    "price": 299,
+    "image": "images/focus.jpg",
+    "description": "ชาสมุนไพรสูตรเพิ่มสมาธิ ช่วยให้จดจ่อกับงานตรงหน้าได้อย่างมีคุณภาพ"
+  },
+  {
+    "id": "relax-small",
+    "name": "ชาสมุนไพร Relax",
+    "mood": "relax",
+    "type": "tea",
+    "size": "เล็ก 10 ซอง",
+    "price": 129,
+    "image": "images/relax.jpg",
+    "description": "ชาสมุนไพรกลิ่นหอมผ่อนคลาย เหมาะสำหรับช่วงเวลาพักผ่อนหลังวันที่ยาวนาน"
+  },
+  {
+    "id": "relax-large",
+    "name": "ชาสมุนไพร Relax",
+    "mood": "relax",
+    "type": "tea",
+    "size": "ใหญ่ 30 ซอง",
+    "price": 299,
+    "image": "images/relax.jpg",
+    "description": "ชาสมุนไพรกลิ่นหอมผ่อนคลาย เหมาะสำหรับช่วงเวลาพักผ่อนหลังวันที่ยาวนาน"
+  },
+  {
+    "id": "balance-small",
+    "name": "ชาสมุนไพร Balance",
+    "mood": "balance",
+    "type": "tea",
+    "size": "เล็ก 10 ซอง",
+    "price": 129,
+    "image": "images/balance.jpg",
+    "description": "ชาสมุนไพรสูตรปรับสมดุล ช่วยให้ร่างกายและจิตใจกลับมาสมดุลอีกครั้ง"
+  },
+  {
+    "id": "balance-large",
+    "name": "ชาสมุนไพร Balance",
+    "mood": "balance",
+    "type": "tea",
+    "size": "ใหญ่ 30 ซอง",
+    "price": 299,
+    "image": "images/balance.jpg",
+    "description": "ชาสมุนไพรสูตรปรับสมดุล ช่วยให้ร่างกายและจิตใจกลับมาสมดุลอีกครั้ง"
+  },
+  {
+    "id": "kettle-strainer",
+    "name": "กาแก้วชงชาพร้อมที่กรอง",
+    "mood": null,
+    "type": "accessory",
+    "size": null,
+    "price": 259,
+    "image": "images/fresh.jpg",
+    "description": "กาแก้วทรงเรียบหรู มาพร้อมที่กรองในตัว ชงชาสมุนไพรได้สะดวกทุกแก้ว"
+  },
+  {
+    "id": "double-wall-glass",
+    "name": "แก้วใสสองชั้นทนความร้อน",
+    "mood": null,
+    "type": "accessory",
+    "size": null,
+    "price": 259,
+    "image": "images/relax.jpg",
+    "description": "แก้วสองชั้นดีไซน์เรียบ ทนความร้อน ให้สัมผัสพรีเมียมทุกครั้งที่จิบชา"
+  }
+]
