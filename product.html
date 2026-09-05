@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สินค้าทั้งหมด — MoodTea</title>
+  <meta name="description" content="เลือกชาสมุนไพร MoodTea ตามอารมณ์ที่คุณต้องการในวันนี้">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="navbar__logo">Mood<span>Tea</span></a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+        <a href="product.html?mood=fresh">Fresh</a>
+        <a href="product.html?mood=focus">Focus</a>
+        <a href="product.html?mood=relax">Relax</a>
+        <a href="product.html?mood=balance">Balance</a>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="เปิดเมนู">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="eyebrow">MoodTea</span>
+          <h2>สินค้าทั้งหมด</h2>
+          <span class="heading-accent"></span>
+          <p class="lead mt-sm">เลือกชาสมุนไพรให้ตรงกับอารมณ์ที่คุณต้องการในวันนี้</p>
+        </div>
+
+        <!-- ปุ่มกรองตาม mood — สร้างโดย script.js -->
+        <div id="filter-bar"></div>
+
+        <!-- การ์ดสินค้า — เรนเดอร์โดย script.js -->
+        <div id="product-list" class="product-grid"></div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="navbar__logo" style="color:inherit;">Mood<span style="color:var(--color-gold-soft);">Tea</span></a>
+          <p style="color:inherit; opacity:0.75; margin-top:0.75rem; max-width:320px;">
+            ชาสมุนไพรที่เข้าใจว่าวันนี้คุณต้องการอะไร
+          </p>
+        </div>
+        <div>
+          <h4 style="color:inherit; font-size:0.95rem; margin-bottom:0.75rem;">เมนู</h4>
+          <p><a href="product.html">สินค้าทั้งหมด</a></p>
+          <p><a href="index.html#moods">อารมณ์ของชา</a></p>
+        </div>
+        <div>
+          <h4 style="color:inherit; font-size:0.95rem; margin-bottom:0.75rem;">ติดต่อ</h4>
+          <p>Line: @moodtea</p>
+          <p>Email: hello@moodtea.co</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 MoodTea. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // toggle mobile nav
+    var navToggle = document.getElementById('navToggle');
+    var navLinks = document.getElementById('navLinks');
+    if (navToggle && navLinks) {
+      navToggle.addEventListener('click', function () {
+        navLinks.classList.toggle('is-open');
+      });
+    }
+  </script>
+</body>
+</html>
